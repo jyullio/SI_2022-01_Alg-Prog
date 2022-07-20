@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+#define N 6
+
+int main(){
+
+    int i;
+    int vet[N];
+
+    for(i = 0 ; i < N ; i++){
+        scanf("\n%d" , &vet[i]);
+    }
+
+    for(i = 0 ; i < N ; i++){
+        printf("%d " , vet[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
